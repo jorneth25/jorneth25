@@ -1,0 +1,57 @@
+body {
+  background-color: azure;
+  margin: 0 auto;
+}
+
+
+header h1 {
+  font-size: 150px;
+  color: aliceblue;
+  margin: 0 auto;
+  background-image: url(./banner.webp);
+  padding: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+  margin: 0 auto;
+  text-align: center;
+  color: chocolate;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 25px;
+  font-size: 30px;
+}
+
+p {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 20px;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+img:hover {
+  filter: opacity(0.7);
+}
+
+table {
+  margin: 0 auto;
+  border: 1px solid #000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+th,
+td {
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 0.3em;
+  caption-side: bottom;
+}
