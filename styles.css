@@ -47,7 +47,7 @@
 .banner {
     
     padding: 100px;
-    background-image: url(./resources/banner.jpg);
+    background-image: url(./banner.jpg);
     justify-content: flex-start;
     background-repeat: no-repeat;
     background-size: cover;
