@@ -1,57 +1,187 @@
-body {
-  background-color: azure;
-  margin: 0 auto;
+*{
+    margin: auto auto;
+    padding: 0px;
+    
+}
+
+/*Logo*/
+.logo-section {
+    position: relative;    
+    display: inline-flex;
+    width: 100%;
+    background-color: rgb(17, 207, 191);
+     
+    
+}
+
+/*Nav Bar*/
+#nav-logo {
+    position: relative;    
+    margin: 0 auto;
+    padding: 50px;
+    width: 20%;
+    
+}
+
+.nav-menu{
+    
+    text-align: center;
+    background-color: rgb(133, 132, 132);
+    padding: 30px 0;
+    margin-top:10px;
+    
+}
+
+.nav-menu li {
+    display: inline-flex;
+    padding: 5px 45px;
+    margin-left: 5%;
+    list-style: none;
+    font-size: 2rem;
+    font-family: Roboto, sans-serif;
+    color:white;
+   
+}
+
+/*Banner*/
+.banner {
+    
+    padding: 100px;
+    background-image: url(./resources/banner.jpg);
+    justify-content: flex-start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    filter: grayscale(2);
+}
+
+.banner:hover{
+    color: aquamarine;
+    
+}
+
+.banner h1{
+    margin-top: 35%;
+    font-size: 200px;
+    color: rgb(255, 255, 255);
+}
+.banner p {
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+/*About Us*/
+.about-us-container{
+    background-color: rgb(133, 132, 132);
+    padding: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+.about-us h2{
+    padding: 40px;
+    font-size: 3rem;
+    font-family: Roboto;
+    line-height: 2;
+    color:rgb(255, 255, 255);
+}
+
+.about-us p{
+    font-size: 1.5rem;
+    font-family: Roboto;
+    font-style: italic;
 }
 
 
-header h1 {
-  font-size: 150px;
-  color: aliceblue;
-  margin: 0 auto;
-  background-image: url(./banner.webp);
-  padding: 50px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+/*Products*/
+.products {
+    margin-top: 90px;
+    text-align: center;
+
+
 }
 
-h2 {
-  margin: 0 auto;
-  text-align: center;
-  color: chocolate;
-  font-weight: bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 25px;
-  font-size: 30px;
+.products h1{
+    font-family: Roboto;
+    font-size: 3rem;
+
 }
 
-p {
-  text-align: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: italic;
-  font-size: 20px;
+.product-container{
+    display: flex;
+    margin-top: 40px;
+    padding-top: 50px;
+    background-color: rgb(197, 197, 197);
 }
 
-img {
-  width: 500px;
-  height: 300px;
-  display: block;
-  margin: auto;
-}
-img:hover {
-  filter: opacity(0.7);
+.product-container img{
+    height: 400px;
 }
 
-table {
-  margin: 0 auto;
-  border: 1px solid #000;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.product-container h3{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
-th,
-td {
-  text-align: left;
-  vertical-align: top;
-  border: 1px solid #000;
-  border-collapse: collapse;
-  padding: 0.3em;
-  caption-side: bottom;
+
+
+/*ProductsJ Hoover*/
+.product-container img:hover{
+    opacity: 0.95;
+    filter: contrast(1.5);
+    filter: blur(1px);
+    transition: .5s;
+    
+}
+
+/*Our Team*/
+
+.our-team-container h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: Roboto;
+}
+
+.our-team-container{
+    margin-top: 100px;
+    
+}
+
+.team-container {
+    display: flex;
+    text-align: center;
+    
+}
+
+.team-container img{
+    height: 400px;
+    width: 400px;
+    border-radius: 360px;
+    
+}
+
+.empresario h3  {
+    font-size: 35px;
+}
+
+.empresario p{
+    font-style: italic;
+    font-size: 20px;
+}
+
+/*Footer*/
+
+footer{
+    background-color: rgb(17, 207, 191);
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    font-family: roboto;
+    font-size: 20px;
+
 }
